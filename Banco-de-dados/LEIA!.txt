@@ -1,0 +1,17 @@
+O projeto está configurado com banco de dados:
+db_banco de dados;
+
+passo a passo:
+
+1 - logue no seu MySql e crie o banco de dados com os 
+dados armazenados 
+ 
+2 - verifique se o seu mysql foi configurado uma senha 
+no usuário "root".
+
+	2.1 - caso tenha uma senha configurada, vá na linha 18
+	de forms.cs e coloque sua senha em "Password=".
+
+	2.2 - caso seu usuário root não tenha uma senha cadastrada
+	não altere nada no arquivo, ele irá seguir normalmente, após
+	a criação do banco de dados.

@@ -1,0 +1,11 @@
+create database db_contatos;
+
+use db_contatos;
+
+create table contatos(
+	id int auto_increment,
+	nome varchar(255) not null,
+	email varchar(100) not null,
+	telefone varchar(50) not null,
+	primary key(id)
+);
