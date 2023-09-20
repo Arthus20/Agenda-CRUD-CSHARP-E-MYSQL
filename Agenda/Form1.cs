@@ -300,8 +300,8 @@ namespace Agenda
 
             try
             {
-                DialogResult conf = MessageBox.Show("Tem Certeza que deseja excluir o Registro",
-                                                   "tem certeza?",
+                DialogResult conf = MessageBox.Show("Tem certeza que deseja excluir o registro",
+                                                   "Tem certeza?",
                                                    MessageBoxButtons.YesNo,
                                                    MessageBoxIcon.Warning);
                 if (conf == DialogResult.Yes)
@@ -321,7 +321,7 @@ namespace Agenda
                     cmd.ExecuteNonQuery();
 
 
-                    MessageBox.Show("Contato Exclido com Sucesso!!!",
+                    MessageBox.Show("Contato excluído com sucesso!!!",
                                     "Sucesso!",
                                     MessageBoxButtons.OK,
                                     MessageBoxIcon.Information);
